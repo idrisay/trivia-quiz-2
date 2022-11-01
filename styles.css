@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#quiz-wrapper {
+  padding: 10px;
+}
+
+#quiz-wrapper #category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#quiz-wrapper #difficulty {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#quiz-wrapper .option {
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid lightblue;
+  padding: 5px;
+}
+
+#quiz-wrapper .option:hover {
+  background-color: lightblue;
+}
